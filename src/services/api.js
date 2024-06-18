@@ -1,8 +1,16 @@
 import axios from 'axios';
 
-const API_URL = '/api/users';
+const USERS_FILE = '/users.txt';
 
-export const fetchUsers = async (searchTerm, pageUrl = '') => {
-  const response = await axios.get(`${API_URL}?searchTerm=${searchTerm}&pageUrl=${pageUrl}`);
-  return response.data;
+export const fetchUsers = async (searchTerm) => {
+  try {
+    const response = await axios.get(USERS_FILE);
+    const users = response.data;
+    return {
+      result: users.filter(user => user.name.toLowerCase().includes(searchTerm.toLowerCase())),
+    };
+  } catch (error) {
+    console.error('Error fetching users:', error);
+    throw error;
+  }
 };
