@@ -7,11 +7,14 @@ const ListContainer = styled.div`
   overflow-y: auto;
 `;
 
-const UserList = ({ users }) => (
+const UserList = ({ users, loadMoreUsers }) => (
   <ListContainer>
     {users.map(user => (
       <UserItem key={user.id} user={user} />
     ))}
+    {loadMoreUsers && (
+      <button onClick={loadMoreUsers}>Load More</button>
+    )}
   </ListContainer>
 );
 
