@@ -1,5 +1,9 @@
 [
-  { "id": "1", "name": "Danilin Dmitry", "avatarUrl": "https://example.com/avatar1.png" },
-  { "id": "2", "name": "Kirill", "avatarUrl": "https://example.com/avatar2.png" },
-  { "id": "3", "name": "Каштанов", "avatarUrl": "https://example.com/avatar3.png" }
+  { "id": "1", "name": "Danilin Dmitry", "avatarUrl": "https://w7.pngwing.com/pngs/812/462/png-transparent-account-avatar-profile-user-avatars-icon.png" },
+  { "id": "2", "name": "Kolesnikov Kirill", "avatarUrl": "https://a.allegroimg.com/s400/115259/78686a37401e9218f22f54e1447a/Naklejka-Star-Wars-Darth-Vader" },
+  { "id": "3", "name": "Каштанов Дмитрий", "avatarUrl": "https://yt3.googleusercontent.com/ytc/AOPolaRRlPxh6E4193Dh1aBzZAzwuUwEs_y9Gpa2bc5lHQ=s900-c-k-c0x00ffffff-no-rj" },
+  { "id": "4", "name": "Резниченко Виктор", "avatarUrl": "https://w7.pngwing.com/pngs/340/946/png-transparent-avatar-user-computer-icons-software-developer-avatar-child-face-heroes.png" },
+  { "id": "5", "name": "Задорожный Андрей", "avatarUrl": "https://w7.pngwing.com/pngs/450/288/png-transparent-account-avatar-profile-user-avatars-icon.png" },
+  { "id": "6", "name": "Angelina Golli", "avatarUrl": "https://image.pngaaa.com/352/1721352-middle.png" }
 ]
+
